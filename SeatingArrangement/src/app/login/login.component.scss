@@ -1,0 +1,22 @@
+.login-form{
+    background-color: lightgray;
+    float: right;
+
+    padding: 40px 5px 40px 5px;
+    display: flex;
+    // flex-direction: row;
+    align-items: flex-start;
+    .login-name{
+        align-self: center;
+    }
+    .login-password{
+        align-self: center;
+    }
+}
+
+.login-heading{
+    align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: green;
+}
