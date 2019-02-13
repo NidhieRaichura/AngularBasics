@@ -1,22 +1,38 @@
 .login-form{
-    background-color: lightgray;
-    float: right;
-
-    padding: 40px 5px 40px 5px;
     display: flex;
-    // flex-direction: row;
-    align-items: flex-start;
+    justify-content: center;
+    flex : 1 1 auto;
+    .login-heading{
+        align-items: center;
+        margin: 0 30px 0 30px;
+        display: block;
+        padding: 25px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5em;
+        font-weight: bold;
+        color: seagreen;
+    }
     .login-name{
-        align-self: center;
+        align-items: center;
+        display: block;
+        height: 20px;
+        padding: 5px;
+        margin: 10px;
     }
     .login-password{
-        align-self: center;
+        align-items: center;
+        display:block;
+        height: 20px;
+        padding: 5px;
+        margin: 10px;
+    }
+    .login-submit{
+        align-items: center;
+        height: 30px;
+        width: 170px;
+        padding: 5px;
+        margin: 10px;
     }
 }
 
-.login-heading{
-    align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    color: green;
-}
+
