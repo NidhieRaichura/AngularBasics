@@ -1,8 +1,9 @@
-.login-form{
+
+.form-container{
     display: flex;
     justify-content: center;
     flex : 1 1 auto;
-    .login-heading{
+    .form-heading{
         align-items: center;
         margin: 0 30px 0 30px;
         display: block;
@@ -12,21 +13,21 @@
         font-weight: bold;
         color: seagreen;
     }
-    .login-name{
+    .form-name{
         align-items: center;
         display: block;
         height: 20px;
         padding: 5px;
         margin: 10px;
     }
-    .login-password{
+    .form-password{
         align-items: center;
         display:block;
         height: 20px;
         padding: 5px;
         margin: 10px;
     }
-    .login-submit{
+    .form-submit{
         align-items: center;
         height: 30px;
         width: 170px;
