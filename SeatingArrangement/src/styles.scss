@@ -1,54 +1,61 @@
-/* You can add global styles to this file, and also import other style files */
+// /* You can add global styles to this file, and also import other style files */
 
+// $warning-color : rgb(199, 0, 44);
+// $color2 : rgb(230, 227, 220);
 
+// .form-container{
+//     display: flex;
+//     justify-content: center;
+//     flex : 1 1 auto;
+//     .form-heading{
+//         align-items: center;
+//         margin: 0 30px 0 30px;
+//         display: block;
+//         padding: 25px;
+//         font-family: 'Courier New', Courier, monospace;
+//         font-size: 1.5em;
+//         font-weight: bold;
+//         color: seagreen;
+//     }
+//     .form-name{
+//         align-items: center;
+//         display: block;
+//         height: 20px;
+//         padding: 5px;
+//         margin: 10px;
+//     }
+//     .form-password{
+//         align-items: center;
+//         display:block;
+//         height: 20px;
+//         padding: 5px;
+//         margin: 10px;
+//     }
+//     .form-submit{
+//         align-items: center;
+//         height: 30px;
+//         width: 170px;
+//         padding: 5px;
+//         margin: 10px;
+//     }
+// }
+
+//     %header-footer-container{
+//         //background-color:rgb(125, 179, 224);
+//         height: 10vh;
+//     }
+
+//     .header-container{
+//          @extend %header-footer-container;
+//     }
+
+//     .footer-container{
+//         @extend %header-footer-container;
+//         }
+    
 .form-container{
-    display: flex;
-    justify-content: center;
-    flex : 1 1 auto;
-    .form-heading{
-        align-items: center;
-        margin: 0 30px 0 30px;
-        display: block;
-        padding: 25px;
-        font-family: 'Courier New', Courier, monospace;
-        font-size: 1.5em;
-        font-weight: bold;
-        color: seagreen;
-    }
-    .form-name{
-        align-items: center;
-        display: block;
-        height: 20px;
-        padding: 5px;
-        margin: 10px;
-    }
-    .form-password{
-        align-items: center;
-        display:block;
-        height: 20px;
-        padding: 5px;
-        margin: 10px;
-    }
-    .form-submit{
-        align-items: center;
-        height: 30px;
-        width: 170px;
-        padding: 5px;
-        margin: 10px;
-    }
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;   
 }
-
-    %header-footer-container{
-        background-color:rgb(36, 151, 243);
-        height: 10vh;
-    }
-
-    .header-container{
-         @extend %header-footer-container;
-    }
-
-    .footer-container{
-        @extend %header-footer-container;
-        }
-    
-    
