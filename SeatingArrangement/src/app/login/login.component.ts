@@ -10,10 +10,10 @@ export class LoginComponent implements OnInit {
 
   loginForm: FormGroup;
 
-  constructor() { }
+  constructor(private formBuilder: FormBuilder) { }
 
   ngOnInit() {
-    this.loginForm = new FormGroup({
+    this.loginForm = this.formBuilder.group({
       username: new FormControl('', Validators.required),
       password: new FormControl('', Validators.required)
     });
