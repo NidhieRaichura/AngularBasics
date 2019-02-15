@@ -8,8 +8,13 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
-
   ngOnInit() {
   }
 
+  loginSubmit() {
+
+  }
+  signupSubmit() {
+    console.log("submitted");
+  }
 }

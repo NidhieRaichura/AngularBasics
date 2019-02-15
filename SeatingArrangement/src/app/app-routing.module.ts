@@ -10,9 +10,8 @@ import { HeaderComponent } from './header/header.component';
 
 
 const routes: Routes = [
-  { path: '', component: AppComponent },
-  { path: 'home', component: HomeComponent },
-  { path: 'header', component: HeaderComponent },
+  //{ path: '', component: AppComponent },
+  { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'employee', component: EmployeeComponent }

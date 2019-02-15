@@ -1,0 +1,14 @@
+@import '../style/button';
+
+.nav-bar{
+    height: 15vh;
+}
+
+.header-submit{
+    @extend %submit-button;
+}
+
+.container{
+    width: 100%;
+    max-width: 330px;
+}
